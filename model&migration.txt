@@ -1,0 +1,12 @@
+php artisan make:model User -m
+php artisan make:model CustomerProfile -m
+php artisan make:model Brand -m
+php artisan make:model Category -m
+php artisan make:model Product -m
+php artisan make:model ProductDetail -m
+php artisan make:model Slider -m
+php artisan make:model Wishlist -m
+php artisan make:model Invoice -m
+php artisan make:model InvoiceProduct -m
+php artisan make:model ProductReview -m
+php artisan make:model SSLCommerzCredential -m
