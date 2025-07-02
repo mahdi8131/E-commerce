@@ -15,7 +15,9 @@ php artisan make:model SSLCommerzCredential -m
 
 php artisan make:controller DashboardController
 php artisan make:controller SSLCommerzCredentialController -r
+php artisan make:controller AuthController
 
 
 
 php artisan make:seeder SslCommerzSeeder
+php artisan make:seeder AdminSeeder
