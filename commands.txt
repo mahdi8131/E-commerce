@@ -10,3 +10,12 @@ php artisan make:model Invoice -m
 php artisan make:model InvoiceProduct -m
 php artisan make:model ProductReview -m
 php artisan make:model SSLCommerzCredential -m
+
+
+
+php artisan make:controller DashboardController
+php artisan make:controller SSLCommerzCredentialController -r
+
+
+
+php artisan make:seeder SslCommerzSeeder
